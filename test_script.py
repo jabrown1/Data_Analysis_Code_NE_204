@@ -77,7 +77,7 @@ def create_trap_filter(pl,p,g,cf):
     return a;
 
 def load_data():
-	hf = tables.openFile("/Users/bnrc/Desktop/NE_204_data/JB_AP_CO_60_2000_samples_092413.h5");
+	hf = tables.openFile("/Users/Anders/Documents/Courses/NE 204/JB_AP_CO_60_2000_samples_092413.h5");
 	return hf;
 
 def read_n_m_lines(f,n,m):
